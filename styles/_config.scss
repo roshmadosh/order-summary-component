@@ -1,6 +1,21 @@
-$pale_blue: hsl(225, 100%, 94%);
-$bright_blue: hsl(245, 75%, 52%);
-$very_pale_blue: hsl(225, 100%, 98%);
-$desaturated_blue: hsl(224, 23%, 55%);
-$dark_blue: hsl(223, 47%, 23%);
+$pale-blue: hsl(225, 100%, 94%);
+$bright-blue: hsl(245, 75%, 52%);
+$very-pale-blue: hsl(225, 100%, 98%);
+$desaturated-blue: hsl(224, 23%, 55%);
+$dark-blue: hsl(223, 47%, 23%);
+
+$font_weight--light: 500;
+$font_weight--med: 700;
+$font_weight--heavy: 900;
+
+$font-family: 'Outfit', sans-serif;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: $font-family;
+}
 
